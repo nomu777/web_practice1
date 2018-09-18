@@ -80,53 +80,70 @@ header {
 }
 
 .top-archive {
+  border: 5px solid #000;
   background-color: #fff;
   padding: 80px 0 124px;
 }
 
 .top-archive_list {
+  border: 5px solid #000;
   margin: 0 auto;
   width: 96%;
 }
 
 .top-archive_item {
   background-color: #f2f2f2;
+  border: 5px solid #000;
   float: left;
   margin: 0 1.2894% 2.5788%;
   overflow: hidden;
   position: relative;
   width: 22%;
+  /* background-image: url(picture/sample1.jpg);
+  display: block; */
 }
 
 .top-archive_item-link {
+  border: 5px solid #000;
   display: block;
   padding-top: 68%;
   text-decoration: none;
 }
 
 .top-archive_item-image-block {
-  background-image: url(picture/sample1.jpg);
-  display: block;
+  border: 5px solid #000;
   width: 100%;
   height: 100%;
 }
 
 .top-archive_item-image {
   background-image: url(picture/sample1.jpg);
+  border: 5px solid #000;
   display: block;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
+  -webkit-transition: -webkit-transform 1s cubic-bezier(0.215, 0.61, 0.355, 1),opacity 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1),opacity 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  opacity: 0;
 }
 
 .item_large {
   width: 47%;
-  /* background-image: url(picture/sample1.jpg);
-  display: block; */
+  border: 5px solid #000;
 }
 
 .top-archive_item-text {
+  /* background-image: url(picture/sample1.jpg); */
   /* background-color: rgba(0,0,0,.65); */
   /* opacity: 0; */
+  border: 5px solid #000;
   position: absolute;
   z-index: 3;
   top: 0;
@@ -140,6 +157,7 @@ header {
 }
 
 .top-archive_item-hover {
+  border: 5px solid #000;
   font-size: 14px;
   font-size: 1.4rem;
   color: #000;
