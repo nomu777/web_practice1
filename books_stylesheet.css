@@ -89,10 +89,8 @@ header {
 .top-archive_item {
   background-color: #f2f2f2;
   /* float: left; */
-  margin: 0 1.2894% 2.5788%;
   overflow: hidden;
   position: relative;
-  width: 22%;
 }
 
 .top-archive_item-link {
@@ -106,7 +104,7 @@ header {
   height: 100%;
 }
 
-.top-archive_item-image-hover {
+.top-archive_item-image {
   background-image: url(picture/sample1.jpg);
   display: none;
   background-position: center;
@@ -134,7 +132,7 @@ header {
   height: 100%;
 }
 
-.top-archive_item-hover {
+.top-archive_item {
   font-size: 14px;
   font-size: 1.4rem;
   color: #000;
@@ -143,8 +141,13 @@ header {
   top: 43%;
 }
 
+.image-active {
+  display: block;
+}
 
-
+.text-active {
+  display: none;
+}
 
 
 
