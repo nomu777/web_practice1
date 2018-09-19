@@ -1,6 +1,6 @@
 $(function() {
 
-  $('.top-archive_item-text').hover(
+  $('.top-archive_item').hover(
     function() {
       $(this).find('.top-archive_item-image').addClass('image-active');
     },
@@ -9,12 +9,12 @@ $(function() {
     }
   );
 
-  $('.top-archive_item-text').hover(
+  $('.top-archive_item-text-area').hover(
     function() {
-      $(this).find('.top-archive_item').addClass('text-active');
+      $(this).find('.top-archive_item-text').addClass('text-active');
     },
     function() {
-      $(this).find('.top-archive_item').removeClass('text-active');
+      $(this).find('.top-archive_item-text').removeClass('text-active');
     }
   );
 
