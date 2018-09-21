@@ -3,12 +3,11 @@ body {
   font-size: 1.3rem;
   color: #212121;
   font-family: Helvetica,Arial,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','游ゴシック','Yu Gothic',YuGothic,Osaka,'メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
-  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
 
 .container {
-  width: 1170px;
+  /* width: 1170px; */
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -44,9 +43,10 @@ body {
 }
 
 header {
-  height: 65px;
+  height: 75px;
   width: 100%;
-  background-color: rgba(34,49,52,0.9);
+  /* background-color: rgba(34,49,52,0.9); */
+  background-color: #fff;
   position :fixed;
   top: 0;
   z-index: 10;
@@ -58,20 +58,52 @@ header {
 
 .header-right {
   float: right;
-  background-color: rgba(255,255,255,0.3);
-  transition: all 0.5s;
 }
 
-.header-right:hover {
-  background-color: rgba(255,255,255,0.5);
+.header-access {
+  float: left;
+  margin-top: 15px;
+  margin-right: 20px;
 }
 
-.header-right .login {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  cursor: pointer;
-  display: block;
+.header-access a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+}
+
+.header-contact {
+  float: left;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.header-contact a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+}
+
+.header-items {
+  margin-top: 20px;
+}
+
+.header-items-list {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 14px 0 0 30px;
+}
+
+.header-item {
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+.header-item a {
+  text-decoration: none;
+  color: #000;
 }
 
 /* メイン画面 */
@@ -157,8 +189,6 @@ header {
 .text-active {
   display: none;
 }
-
-
 
 
 
