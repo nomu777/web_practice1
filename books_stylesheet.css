@@ -4,6 +4,7 @@ body {
   color: #212121;
   font-family: Helvetica,Arial,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','游ゴシック','Yu Gothic',YuGothic,Osaka,'メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
   -webkit-font-smoothing: antialiased;
+  margin: 0;
 }
 
 .container {
@@ -109,13 +110,15 @@ header {
 /* メイン画面 */
 .top-archive {
   background-color: #fff;
-  padding: 20px 0 124px;
+  padding: 20px 0 20px;
   margin-top: 65px;
+  overflow: auto;
 }
 
 .top-archive_list {
   margin: 0 auto;
   width: 96%;
+  overflow: auto;
 }
 
 .top-archive_item {
@@ -129,7 +132,6 @@ header {
   top: 37%;
   background-color: #f2f2f2;
   overflow: hidden;
-  position: relative;
 }
 
 .top-archive_item-link {
@@ -172,9 +174,10 @@ header {
 
 .top-archive_item-text {
   color: #000;
-  width: 100%;
+  width: 90%;
   position: absolute;
-  top: 37%;
+  margin: 0 20px;
+  top: 41%;
 }
 
 /* .item_large {
@@ -190,6 +193,52 @@ header {
   display: none;
 }
 
+/* ジャンル欄 */
+.top-genre {
+  width: 100%;
+  padding-top: 20px;
+  background-color: #f3f3f2;
+}
+
+.top-genre-inner {
+  margin: 0 auto;
+  width: 1080px;
+}
+
+.top-genre-title {
+  text-align: center;
+}
+
+.top-genre-list {
+  margin-bottom: 20px;
+}
+
+.top-genre-item {
+  margin-bottom: 12px;
+}
+
+.top-genre-link {
+  background-color: #fff;
+  box-sizing: border-box;
+  display: block;
+  padding: 20px;
+}
+
+.top-banner-list {
+  display: table;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.top-banner-item {
+  display: table-cell;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  width: 33.3%;
+  height: 190px;
+}
 
 
 
@@ -197,6 +246,15 @@ header {
 
 
 
+
+.footer {
+  background-color: #1f1f1d;
+  color: #fff;
+  font-family: 'ff-din-web',sans-serif;
+  letter-spacing: .05em;
+  padding: 72px 0 65px;
+  position: relative;
+}
 
 
 
